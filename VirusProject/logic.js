@@ -10,6 +10,10 @@ var myMap = L.map("map", {
     accessToken: API_KEY
   }).addTo(myMap);
 
+function markerSize(Population) {
+    return Population / 300;
+  }
+
 
 var countries = [{
     name: "Albania",
@@ -679,27 +683,27 @@ var countries = [{
 } 
 ];
 
+function chooseColor(DeathRate) {
+    switch(DeathRate) {
+    case "High":
+        return 'red';
+        break;
+    case "Medium":
+        return 'green';
+        break;
+    case "Low":
+        return 'blue';
+        break;
+    default:
+        return 'black';
+    }
+}
 for (var i = 0; i < countries.length; i++) {
-   
-    var color = "";
-
-    if (countries[i].DeathRate = "High"){
-        color = "yellow";
-    }
-    else if (countries[i].DeathRate = "Low"){
-        color = "green";
-    }
-    else if (countries[i].DeathRate = "Medium"){
-        color = "blue";
-    }
-    else {
-        color = "black";
-    }
 
     L.circle(countries[i].location, {
       fillOpacity: 0.75,
-      color: "white",
-      fillColor: color,
-      radius: countries[i].Population/300
+      color: "pink",
+      fillColor: chooseColor(countries[i].DeathRate),
+      radius: markerSize(countries[i].Population)
     }).bindPopup("<h1>" + countries[i].name + "</h1> <hr> <h3>Death Rate: " + countries[i].DeathRate + "<h3>Region: " + countries[i].Region+ "<h3>Population: " +countries[i].Population + "</h3>").addTo(myMap);
   }
