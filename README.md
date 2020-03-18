@@ -21,4 +21,5 @@ Link to COVID-19 World Map: https://arcg.is/1WHynb
 * Italy Ministry of Health: http://www.salute.gov.it/nuovocoronavirus
 * Federal Reserve Economic Data: https://fred.stlouisfed.org/ <br>
 * Us Sector Financial Performance calculated from S&P 500 Indexes: Alphadvantage API  https://www.alphavantage.co/ <br>
+* CDC Travel Advisory: https://wwwnc.cdc.gov/travel/notices <br>
 <br>

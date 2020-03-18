@@ -1,14 +1,109 @@
-Meta Data,Rank A: Real-Time Performance,Rank B: 1 Day Performance,Rank C: 5 Day Performance,Rank D: 1 Month Performance,Rank E: 3 Month Performance,Rank F: Year-to-date (YTD) PErformance,Rank G: 1 Year Performance,Rank H: 3 Year Performance,Rank I: 5 Year Performance,Rank J: 10 Year Performance
-US Sector Performance (realtime & historical),,,,,,,,,,
-2020-03-16 19:39:16 US/Eastern,,,,,,,,,,
-,-6.99%,8.41%,-7.93%,-11.77%,-8.91%,-10.02%,3.59%,3.10%,16.95%,106.26%
-,-9.99%,6.95%,-6.65%,-13.22%,-9.53%,-11.30%,0.25%,20.26%,27.01%,185.64%
-,-10.44%,9.20%,-6.70%,-17.49%,-11.88%,-13.23%,-0.73%,-7.38%,2.06%,48.82%
-,-11.44%,6.92%,-13.21%,-23.73%,-23.61%,-24.64%,-16.34%,-10.90%,-7.72%,44.69%
-,-11.45%,7.83%,-13.12%,-26.40%,-23.18%,-23.12%,-15.06%,-6.22%,9.06%,100.28%
-,-11.54%,5.55%,-14.26%,-17.11%,-8.34%,-11.54%,-1.20%,13.03%,31.02%,93.14%
-,-12.08%,6.08%,-10.47%,-22.32%,-15.55%,-17.55%,-6.29%,17.89%,35.71%,221.23%
-,-13.63%,8.84%,-24.28%,-41.86%,-45.83%,-47.14%,-49.71%,-52.70%,-55.92%,-44.46%
-,-13.91%,11.96%,-5.20%,-17.26%,-5.14%,-8.33%,17.68%,64.55%,112.83%,297.47%
-,-13.99%,13.23%,-9.83%,-26.13%,-25.26%,-25.46%,-12.32%,-7.19%,15.76%,82.45%
-,-16.55%,8.63%,-8.57%,-14.67%,-5.72%,-9.25%,-0.78%,15.20%,,
+Date,sector,Rank,value
+3/16/2020,Communication Services,Rank A: Real-Time Performance,-0.0699
+3/16/2020,Consumer Staples,Rank A: Real-Time Performance,-0.0999
+3/16/2020,Health Care,Rank A: Real-Time Performance,-0.1044
+3/16/2020,Information Technology,Rank A: Real-Time Performance,-0.1144
+3/16/2020,Utilities,Rank A: Real-Time Performance,-0.1145
+3/16/2020,Consumer Discretionary,Rank A: Real-Time Performance,-0.1154
+3/16/2020,Materials,Rank A: Real-Time Performance,-0.1208
+3/16/2020,Industrials,Rank A: Real-Time Performance,-0.1363
+3/16/2020,Real Estate,Rank A: Real-Time Performance,-0.1391
+3/16/2020,Financials,Rank A: Real-Time Performance,-0.1399
+3/16/2020,Energy,Rank A: Real-Time Performance,-0.1655
+3/16/2020,Utilities,Rank B: 1 Day Performance,0.0841
+3/16/2020,Consumer Staples,Rank B: 1 Day Performance,0.0695
+3/16/2020,Real Estate,Rank B: 1 Day Performance,0.092
+3/16/2020,Information Technology,Rank B: 1 Day Performance,0.0692
+3/16/2020,Materials,Rank B: 1 Day Performance,0.0783
+3/16/2020,Health Care,Rank B: 1 Day Performance,0.0555
+3/16/2020,Financials,Rank B: 1 Day Performance,0.0608
+3/16/2020,Industrials,Rank B: 1 Day Performance,0.0884
+3/16/2020,Consumer Discretionary,Rank B: 1 Day Performance,0.1196
+3/16/2020,Communication Services,Rank B: 1 Day Performance,0.1323
+3/16/2020,Energy,Rank B: 1 Day Performance,0.0863
+3/16/2020,Consumer Staples,Rank C: 5 Day Performance,-0.0793
+3/16/2020,Health Care,Rank C: 5 Day Performance,-0.0665
+3/16/2020,Utilities,Rank C: 5 Day Performance,-0.067
+3/16/2020,Communication Services,Rank C: 5 Day Performance,-0.1321
+3/16/2020,Information Technology,Rank C: 5 Day Performance,-0.1312
+3/16/2020,Materials,Rank C: 5 Day Performance,-0.1426
+3/16/2020,Financials,Rank C: 5 Day Performance,-0.1047
+3/16/2020,Industrials,Rank C: 5 Day Performance,-0.2428
+3/16/2020,Real Estate,Rank C: 5 Day Performance,-0.052
+3/16/2020,Consumer Discretionary,Rank C: 5 Day Performance,-0.0983
+3/16/2020,Energy,Rank C: 5 Day Performance,-0.0857
+3/16/2020,Consumer Staples,Rank D: 1 Month Performance,-0.1177
+3/16/2020,Health Care,Rank D: 1 Month Performance,-0.1322
+3/16/2020,Utilities,Rank D: 1 Month Performance,-0.1749
+3/16/2020,Communication Services,Rank D: 1 Month Performance,-0.2373
+3/16/2020,Information Technology,Rank D: 1 Month Performance,-0.264
+3/16/2020,Real Estate,Rank D: 1 Month Performance,-0.1711
+3/16/2020,Materials,Rank D: 1 Month Performance,-0.2232
+3/16/2020,Consumer Discretionary,Rank D: 1 Month Performance,-0.4186
+3/16/2020,Industrials,Rank D: 1 Month Performance,-0.1726
+3/16/2020,Financials,Rank D: 1 Month Performance,-0.2613
+3/16/2020,Energy,Rank D: 1 Month Performance,-0.1467
+3/16/2020,Consumer Staples,Rank E: 3 Month Performance,-0.0891
+3/16/2020,Utilities,Rank E: 3 Month Performance,-0.0953
+3/16/2020,Information Technology,Rank E: 3 Month Performance,-0.1188
+3/16/2020,Health Care,Rank E: 3 Month Performance,-0.2361
+3/16/2020,Real Estate,Rank E: 3 Month Performance,-0.2318
+3/16/2020,Communication Services,Rank E: 3 Month Performance,-0.0834
+3/16/2020,Consumer Discretionary,Rank E: 3 Month Performance,-0.1555
+3/16/2020,Materials,Rank E: 3 Month Performance,-0.4583
+3/16/2020,Industrials,Rank E: 3 Month Performance,-0.0514
+3/16/2020,Financials,Rank E: 3 Month Performance,-0.2526
+3/16/2020,Energy,Rank E: 3 Month Performance,-0.0572
+3/16/2020,Consumer Staples,Rank F: Year-to-date (YTD) PErformance,-0.1002
+3/16/2020,Utilities,Rank F: Year-to-date (YTD) PErformance,-0.113
+3/16/2020,Health Care,Rank F: Year-to-date (YTD) PErformance,-0.1323
+3/16/2020,Information Technology,Rank F: Year-to-date (YTD) PErformance,-0.2464
+3/16/2020,Real Estate,Rank F: Year-to-date (YTD) PErformance,-0.2312
+3/16/2020,Communication Services,Rank F: Year-to-date (YTD) PErformance,-0.1154
+3/16/2020,Consumer Discretionary,Rank F: Year-to-date (YTD) PErformance,-0.1755
+3/16/2020,Materials,Rank F: Year-to-date (YTD) PErformance,-0.4714
+3/16/2020,Industrials,Rank F: Year-to-date (YTD) PErformance,-0.0833
+3/16/2020,Financials,Rank F: Year-to-date (YTD) PErformance,-0.2546
+3/16/2020,Energy,Rank F: Year-to-date (YTD) PErformance,-0.0925
+3/16/2020,Information Technology,Rank G: 1 Year Performance,0.0359
+3/16/2020,Consumer Staples,Rank G: 1 Year Performance,0.0025
+3/16/2020,Utilities,Rank G: 1 Year Performance,-0.0073
+3/16/2020,Health Care,Rank G: 1 Year Performance,-0.1634
+3/16/2020,Communication Services,Rank G: 1 Year Performance,-0.1506
+3/16/2020,Real Estate,Rank G: 1 Year Performance,-0.012
+3/16/2020,Consumer Discretionary,Rank G: 1 Year Performance,-0.0629
+3/16/2020,Materials,Rank G: 1 Year Performance,-0.4971
+3/16/2020,Financials,Rank G: 1 Year Performance,0.1768
+3/16/2020,Industrials,Rank G: 1 Year Performance,-0.1232
+3/16/2020,Energy,Rank G: 1 Year Performance,-0.0078
+3/16/2020,Information Technology,Rank H: 3 Year Performance,0.031
+3/16/2020,Health Care,Rank H: 3 Year Performance,0.2026
+3/16/2020,Utilities,Rank H: 3 Year Performance,-0.0738
+3/16/2020,Consumer Discretionary,Rank H: 3 Year Performance,-0.109
+3/16/2020,Consumer Staples,Rank H: 3 Year Performance,-0.0622
+3/16/2020,Real Estate,Rank H: 3 Year Performance,0.1303
+3/16/2020,Industrials,Rank H: 3 Year Performance,0.1789
+3/16/2020,Communication Services,Rank H: 3 Year Performance,-0.527
+3/16/2020,Financials,Rank H: 3 Year Performance,0.6455
+3/16/2020,Materials,Rank H: 3 Year Performance,-0.0719
+3/16/2020,Energy,Rank H: 3 Year Performance,0.152
+3/16/2020,Information Technology,Rank I: 5 Year Performance,0.1695
+3/16/2020,Utilities,Rank I: 5 Year Performance,0.2701
+3/16/2020,Consumer Discretionary,Rank I: 5 Year Performance,0.0206
+3/16/2020,Health Care,Rank I: 5 Year Performance,-0.0772
+3/16/2020,Consumer Staples,Rank I: 5 Year Performance,0.0906
+3/16/2020,Financials,Rank I: 5 Year Performance,0.3102
+3/16/2020,Industrials,Rank I: 5 Year Performance,0.3571
+3/16/2020,Communication Services,Rank I: 5 Year Performance,-0.5592
+3/16/2020,Materials,Rank I: 5 Year Performance,1.1283
+3/16/2020,Energy,Rank I: 5 Year Performance,0.1576
+3/16/2020,Information Technology,Rank J: 10 Year Performance,1.0626
+3/16/2020,Consumer Discretionary,Rank J: 10 Year Performance,1.8564
+3/16/2020,Health Care,Rank J: 10 Year Performance,0.4882
+3/16/2020,Consumer Staples,Rank J: 10 Year Performance,0.4469
+3/16/2020,Utilities,Rank J: 10 Year Performance,1.0028
+3/16/2020,Industrials,Rank J: 10 Year Performance,0.9314
+3/16/2020,Financials,Rank J: 10 Year Performance,2.2123
+3/16/2020,Communication Services,Rank J: 10 Year Performance,-0.4446
+3/16/2020,Materials,Rank J: 10 Year Performance,2.9747
+3/16/2020,Energy,Rank J: 10 Year Performance,0.8245
