@@ -1,7 +1,7 @@
 # Visualization_Project
 Project 3 - Bill, Claude, Halle, Liz, Alicia
 
-Link to COVID-19 World Map: https://arcg.is/1WHynb
+In response to this ongoing public health emergency, we developed an interactive web based dashboard (https://claudedavid.maps.arcgis.com/apps/opsdashboard/index.html#/22266ea598c24a7babfbf278d244659b) to visualize and track reported cases in real-time. The dashboard illustrates the location and number of confirmed COVID-19 cases, deaths and recoveries for all affected countries. The raw data is collected from multiple sources but we mainly gathered the aggregated data from John Hopkins Univerity’s GitHub: https://github.com/CSSEGISandData/COVID-19. 
 
 <b>Data Sources:</b><br>
 * World Health Organization (WHO): https://www.who.int/ <br>
