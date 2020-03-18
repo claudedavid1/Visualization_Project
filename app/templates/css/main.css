@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Chivo:400,900);
+
+*,*:before,*:after {@include box-sizing(border-box);}
+
+.sticky.is-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+body {
+  min-height: 1200px;
+  font-family: 'Chivo';
+  background: #cfd3d4;
+  color: #222222;
+  text-align: center;
+  line-height: 1.6;
+}
+h1,h2 {
+  text-transform: uppercase;
+}
+
+.wrap {
+  width: 90%;
+  max-width: 40em;
+  margin: 0 auto;
+  min-height: 2499px;
+}
+
+#intro {
+  margin-top: 90px;
+}
+
+.block {
+  padding: 50px 15% 50px;
+  background: #ffffff;
+  margin-bottom: 30px;
+}
+
+nav {
+  min-height: 75px;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #cfd3d4;
+  background-color: #cfd3d4;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ffffff;
+}
+
+.tab button.active {
+  background-color: #ffffff;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #cfd3d4;
+  border-top: none;
+}

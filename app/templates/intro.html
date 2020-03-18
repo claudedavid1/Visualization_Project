@@ -1,0 +1,78 @@
+<!doctype html>
+ <head>
+
+    <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CWRU Bootcamp Project 2</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="icon" href="images/favicon.png" type="image/x-icon">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/intro.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+    <script src="script/countUp.js"></script>
+</head>
+
+<body>	
+<script>
+var $body = $('body');
+
+var loading = [
+    { elements: $body, properties: { width: '20%' } },
+    { elements: $body, properties: { width: '30%' } },
+    { elements: $body, properties: { width: '50%' } },
+    { elements: $body, properties: { width: '100%' } },
+    { elements: $body, properties: { height: '100%' }, options: { 
+      complete: function () { 
+        $('.wrap').velocity( 'transition.slideUpIn' );
+        $('img').velocity( 'transition.flipYIn' );
+        $('html').css({ background: '#fff' });
+      }
+    }
+  }
+]; 
+
+$.Velocity.RunSequence(loading);</script>
+<div class="wrap">
+
+  <style>
+    .container {
+      height: 500px;
+      position: relative;
+    }
+    
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    </style>
+    
+    <div class="container">
+      <div class="center">
+<h1><strong>MY FIRST GLOBAL PANDEMIC?</strong></h1>
+<style>
+  .button {
+    background-color: #222222;
+    border: none;
+    color: #ffffff;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+  }
+  </style>
+
+  <button class="button"  onclick="window.location.href='/index'">FIND OUT!</button>
+</div></div></div>
+</body>
+
+    

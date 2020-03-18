@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Chivo:400,900);
+
+*,*:before,*:after {@include box-sizing(border-box);}
+
+body, html { height: 100%;
+width: 100%;
+font-family: 'Helvetica';
+}
+
+html {
+  background: #222222;
+}
+
+body {
+    font-family: 'Chivo';
+    font-style: normal; 
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    font-size: 1.5em;
+    color: #222222;
+    background: #ffffff;
+    height: .25rem;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    width: 0%;
+}
+
+h1, h2, h3, h4, h5, h6, span, p { font-family: 'Chivo'; }
+
+.wrap {
+  max-width: 60%;
+  min-width: 61.25rem;
+  margin: 2rem auto 0;
+  opacity: 0;
+}
+
+#intro {
+  margin-top: 90px;
+}
+ 
+@media (max-width: 63rem) {
+  html {
+    font-size: 13px;
+  }
+  
+  .wrap {
+    max-width: none;
+    min-width: 100%;
+    width: 100%;
+    padding: 0 1rem;
+  }
+}
