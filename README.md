@@ -19,5 +19,6 @@ Link to COVID-19 World Map: https://arcg.is/1WHynb
 * European Centre for Disease Prevention and Control (ECDC): https://www.ecdc.europa.eu/en/geographical-distribution-2019-ncov-cases 
 * Ministry of Health Singapore (MOH): https://www.moh.gov.sg/covid-19
 * Italy Ministry of Health: http://www.salute.gov.it/nuovocoronavirus
-
+* Federal Reserve Economic Data: https://fred.stlouisfed.org/ <br>
+* Us Sector Financial Performance calculated from S&P 500 Indexes: Alphadvantage API  https://www.alphavantage.co/ <br>
 <br>
