@@ -1,7 +1,12 @@
 # Visualization_Project
-Project 3 - Bill, Claude, Halle, Liz, Alicia
+Project 3 - Bill Malley, Claude David, Halle Morel, Liz Emley, Alicia Bonds
 
 In response to this ongoing public health emergency, we developed an interactive web based dashboard (https://claudedavid.maps.arcgis.com/apps/opsdashboard/index.html#/22266ea598c24a7babfbf278d244659b) to visualize and track reported cases in real-time. The dashboard illustrates the location and number of confirmed COVID-19 cases, deaths and recoveries for all affected countries. The raw data is collected from multiple sources but we mainly gathered the aggregated data from John Hopkins Univerity’s GitHub: https://github.com/CSSEGISandData/COVID-19. 
+
+# Deploying the HTML
+In order to run the `index.html` in virus folder, you must first clone this repository then in your terminal go to the directory where you have the repository.
+* Run `python -m http.server`
+Copy the local host path into a browser, then find `index.html`
 
 <b>Data Sources:</b><br>
 * World Health Organization (WHO): https://www.who.int/ <br>
